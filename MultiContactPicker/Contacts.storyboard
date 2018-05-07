@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Multi Contact Picker Controller-->
+        <scene sceneID="zjV-M5-lXB">
+            <objects>
+                <viewController storyboardIdentifier="MultiContactPickerController" id="kUi-1y-zSn" customClass="MultiContactPickerController" customModule="MultiContactPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CVT-xf-9rW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kmv-SX-2IR">
+                                <rect key="frame" x="0.0" y="76" width="375" height="591"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ff" rowHeight="62" id="LNN-rq-Kqu">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LNN-rq-Kqu" id="498-sO-X8X">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="61.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="kUi-1y-zSn" id="G9x-c5-mhY"/>
+                                    <outlet property="delegate" destination="kUi-1y-zSn" id="2yw-pt-Vye"/>
+                                </connections>
+                            </tableView>
+                            <searchBar contentMode="redraw" searchBarStyle="prominent" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cZx-Ak-KzM">
+                                <rect key="frame" x="0.0" y="20" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="kUi-1y-zSn" id="nF6-Ny-D7C"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cZx-Ak-KzM" firstAttribute="leading" secondItem="VlG-tc-2Tk" secondAttribute="leading" id="Ire-UD-E65"/>
+                            <constraint firstItem="kmv-SX-2IR" firstAttribute="bottom" secondItem="VlG-tc-2Tk" secondAttribute="bottom" id="OOz-Tm-dJO"/>
+                            <constraint firstItem="kmv-SX-2IR" firstAttribute="top" secondItem="cZx-Ak-KzM" secondAttribute="bottom" id="YEQ-hh-n01"/>
+                            <constraint firstItem="cZx-Ak-KzM" firstAttribute="trailing" secondItem="VlG-tc-2Tk" secondAttribute="trailing" id="cy9-mj-UgN"/>
+                            <constraint firstItem="kmv-SX-2IR" firstAttribute="trailing" secondItem="VlG-tc-2Tk" secondAttribute="trailing" id="dgR-nH-iEb"/>
+                            <constraint firstItem="cZx-Ak-KzM" firstAttribute="top" secondItem="VlG-tc-2Tk" secondAttribute="top" id="kZW-dR-FDc"/>
+                            <constraint firstItem="kmv-SX-2IR" firstAttribute="leading" secondItem="VlG-tc-2Tk" secondAttribute="leading" id="sKV-cb-ftJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VlG-tc-2Tk"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TZn-28-sBW">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="2OA-2c-pf7">
+                            <connections>
+                                <action selector="cancelBtn:" destination="kUi-1y-zSn" id="5iU-OT-9FA"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="5jH-TL-WMf">
+                            <connections>
+                                <action selector="doneBtn:" destination="kUi-1y-zSn" id="xug-so-xIB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="contactsTable" destination="kmv-SX-2IR" id="XL4-mV-ebA"/>
+                        <outlet property="searchBar" destination="cZx-Ak-KzM" id="Uwq-cb-T1S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gVd-eN-f7i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4300" y="165"/>
+        </scene>
+    </scenes>
+</document>

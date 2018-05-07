@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CEFCD502209F152400477A51 /* UniversalMultiContactPicker */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CEFCD503209F152400477A51 /* Build configuration list for PBXAggregateTarget "UniversalMultiContactPicker" */;
+			buildPhases = (
+				CEFCD506209F154500477A51 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalMultiContactPicker;
+			productName = UniversalMultiContactPicker;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		CE04559020A0852B0049BA28 /* MultiContactPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04558F20A0852B0049BA28 /* MultiContactPickerController.swift */; };
+		CE04559120A0852B0049BA28 /* MultiContactPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04558F20A0852B0049BA28 /* MultiContactPickerController.swift */; };
+		CE04559520A086490049BA28 /* ContactCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04559320A086490049BA28 /* ContactCellTableViewCell.swift */; };
+		CE04559620A086490049BA28 /* ContactCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04559320A086490049BA28 /* ContactCellTableViewCell.swift */; };
+		CE04559720A086490049BA28 /* ContactCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE04559420A086490049BA28 /* ContactCellTableViewCell.xib */; };
+		CE04559820A086490049BA28 /* ContactCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE04559420A086490049BA28 /* ContactCellTableViewCell.xib */; };
+		CE04559B20A0872A0049BA28 /* icon-checkbox-selected-green.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04559A20A0872A0049BA28 /* icon-checkbox-selected-green.png */; };
+		CE04559C20A0872A0049BA28 /* icon-checkbox-selected-green.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04559A20A0872A0049BA28 /* icon-checkbox-selected-green.png */; };
+		CE04559E20A087390049BA28 /* icon-checkbox-unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04559D20A087390049BA28 /* icon-checkbox-unselected.png */; };
+		CE04559F20A087390049BA28 /* icon-checkbox-unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04559D20A087390049BA28 /* icon-checkbox-unselected.png */; };
+		CE867CF120A08F0D000A357C /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE867CF020A08F0D000A357C /* Contacts.storyboard */; };
+		CE867CF220A08F0D000A357C /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE867CF020A08F0D000A357C /* Contacts.storyboard */; };
+		CE867CF520A098E1000A357C /* icon-default-image.png in Resources */ = {isa = PBXBuildFile; fileRef = CE867CF420A098E1000A357C /* icon-default-image.png */; };
+		CE867CF620A098E1000A357C /* icon-default-image.png in Resources */ = {isa = PBXBuildFile; fileRef = CE867CF420A098E1000A357C /* icon-default-image.png */; };
+		CE867CF820A09AA7000A357C /* MultiContactPickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE867CF720A09AA7000A357C /* MultiContactPickerProtocol.swift */; };
+		CE867CF920A09AA7000A357C /* MultiContactPickerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE867CF720A09AA7000A357C /* MultiContactPickerProtocol.swift */; };
+		CEFCD4EF209F13CC00477A51 /* MultiContactPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFCD4E5209F13CC00477A51 /* MultiContactPicker.framework */; };
+		CEFCD4F4209F13CC00477A51 /* MultiContactPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCD4F3209F13CC00477A51 /* MultiContactPickerTests.swift */; };
+		CEFCD4F6209F13CC00477A51 /* MultiContactPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFCD4E8209F13CC00477A51 /* MultiContactPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEFCD500209F148D00477A51 /* MultiContactPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCD4FF209F148D00477A51 /* MultiContactPicker.swift */; };
+		CEFCD501209F148D00477A51 /* MultiContactPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCD4FF209F148D00477A51 /* MultiContactPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFCD4F0209F13CC00477A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFCD4DC209F13CC00477A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFCD4E4209F13CC00477A51;
+			remoteInfo = MultiContactPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE04558F20A0852B0049BA28 /* MultiContactPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiContactPickerController.swift; sourceTree = "<group>"; };
+		CE04559320A086490049BA28 /* ContactCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCellTableViewCell.swift; sourceTree = "<group>"; };
+		CE04559420A086490049BA28 /* ContactCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactCellTableViewCell.xib; sourceTree = "<group>"; };
+		CE04559A20A0872A0049BA28 /* icon-checkbox-selected-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-checkbox-selected-green.png"; sourceTree = "<group>"; };
+		CE04559D20A087390049BA28 /* icon-checkbox-unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-checkbox-unselected.png"; sourceTree = "<group>"; };
+		CE867CF020A08F0D000A357C /* Contacts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contacts.storyboard; sourceTree = "<group>"; };
+		CE867CF420A098E1000A357C /* icon-default-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-default-image.png"; sourceTree = "<group>"; };
+		CE867CF720A09AA7000A357C /* MultiContactPickerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiContactPickerProtocol.swift; sourceTree = "<group>"; };
+		CEFCD4E5209F13CC00477A51 /* MultiContactPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultiContactPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCD4E8209F13CC00477A51 /* MultiContactPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiContactPicker.h; sourceTree = "<group>"; };
+		CEFCD4E9209F13CC00477A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFCD4EE209F13CC00477A51 /* MultiContactPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiContactPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCD4F3209F13CC00477A51 /* MultiContactPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiContactPickerTests.swift; sourceTree = "<group>"; };
+		CEFCD4F5209F13CC00477A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFCD4FF209F148D00477A51 /* MultiContactPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiContactPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFCD4E1209F13CC00477A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCD4EB209F13CC00477A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFCD4EF209F13CC00477A51 /* MultiContactPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE04559220A086090049BA28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE04559320A086490049BA28 /* ContactCellTableViewCell.swift */,
+				CE04559420A086490049BA28 /* ContactCellTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEFCD4DB209F13CC00477A51 = {
+			isa = PBXGroup;
+			children = (
+				CEFCD4E7209F13CC00477A51 /* MultiContactPicker */,
+				CEFCD4F2209F13CC00477A51 /* MultiContactPickerTests */,
+				CEFCD4E6209F13CC00477A51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFCD4E6209F13CC00477A51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCD4E5209F13CC00477A51 /* MultiContactPicker.framework */,
+				CEFCD4EE209F13CC00477A51 /* MultiContactPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFCD4E7209F13CC00477A51 /* MultiContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CE04559220A086090049BA28 /* Views */,
+				CE867CF420A098E1000A357C /* icon-default-image.png */,
+				CE04559A20A0872A0049BA28 /* icon-checkbox-selected-green.png */,
+				CE04559D20A087390049BA28 /* icon-checkbox-unselected.png */,
+				CEFCD4E8209F13CC00477A51 /* MultiContactPicker.h */,
+				CEFCD4E9209F13CC00477A51 /* Info.plist */,
+				CEFCD4FF209F148D00477A51 /* MultiContactPicker.swift */,
+				CE04558F20A0852B0049BA28 /* MultiContactPickerController.swift */,
+				CE867CF720A09AA7000A357C /* MultiContactPickerProtocol.swift */,
+				CE867CF020A08F0D000A357C /* Contacts.storyboard */,
+			);
+			path = MultiContactPicker;
+			sourceTree = "<group>";
+		};
+		CEFCD4F2209F13CC00477A51 /* MultiContactPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCD4F3209F13CC00477A51 /* MultiContactPickerTests.swift */,
+				CEFCD4F5209F13CC00477A51 /* Info.plist */,
+			);
+			path = MultiContactPickerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CEFCD4E2209F13CC00477A51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFCD4F6209F13CC00477A51 /* MultiContactPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CEFCD4E4209F13CC00477A51 /* MultiContactPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFCD4F9209F13CC00477A51 /* Build configuration list for PBXNativeTarget "MultiContactPicker" */;
+			buildPhases = (
+				CEFCD4E0209F13CC00477A51 /* Sources */,
+				CEFCD4E1209F13CC00477A51 /* Frameworks */,
+				CEFCD4E2209F13CC00477A51 /* Headers */,
+				CEFCD4E3209F13CC00477A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiContactPicker;
+			productName = MultiContactPicker;
+			productReference = CEFCD4E5209F13CC00477A51 /* MultiContactPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEFCD4ED209F13CC00477A51 /* MultiContactPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFCD4FC209F13CC00477A51 /* Build configuration list for PBXNativeTarget "MultiContactPickerTests" */;
+			buildPhases = (
+				CEFCD4EA209F13CC00477A51 /* Sources */,
+				CEFCD4EB209F13CC00477A51 /* Frameworks */,
+				CEFCD4EC209F13CC00477A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFCD4F1209F13CC00477A51 /* PBXTargetDependency */,
+			);
+			name = MultiContactPickerTests;
+			productName = MultiContactPickerTests;
+			productReference = CEFCD4EE209F13CC00477A51 /* MultiContactPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFCD4DC209F13CC00477A51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Radwa;
+				TargetAttributes = {
+					CEFCD4E4209F13CC00477A51 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					CEFCD4ED209F13CC00477A51 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CEFCD502209F152400477A51 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEFCD4DF209F13CC00477A51 /* Build configuration list for PBXProject "MultiContactPicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEFCD4DB209F13CC00477A51;
+			productRefGroup = CEFCD4E6209F13CC00477A51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFCD4E4209F13CC00477A51 /* MultiContactPicker */,
+				CEFCD4ED209F13CC00477A51 /* MultiContactPickerTests */,
+				CEFCD502209F152400477A51 /* UniversalMultiContactPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFCD4E3209F13CC00477A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE04559720A086490049BA28 /* ContactCellTableViewCell.xib in Resources */,
+				CE867CF120A08F0D000A357C /* Contacts.storyboard in Resources */,
+				CE04559B20A0872A0049BA28 /* icon-checkbox-selected-green.png in Resources */,
+				CE04559E20A087390049BA28 /* icon-checkbox-unselected.png in Resources */,
+				CE867CF520A098E1000A357C /* icon-default-image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCD4EC209F13CC00477A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE04559820A086490049BA28 /* ContactCellTableViewCell.xib in Resources */,
+				CE867CF220A08F0D000A357C /* Contacts.storyboard in Resources */,
+				CE04559C20A0872A0049BA28 /* icon-checkbox-selected-green.png in Resources */,
+				CE04559F20A087390049BA28 /* icon-checkbox-unselected.png in Resources */,
+				CE867CF620A098E1000A357C /* icon-default-image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEFCD506209F154500477A51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"MultiContactPicker\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"MultiContactPicker\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/MultiContactPicker.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/MultiContactPicker.framework/Modules/MultiContactPicker.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/MultiContactPicker.framework/Modules/MultiContactPicker.swiftmodule\"\nfi\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/MultiContactPicker.framework/MultiContactPicker\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/MultiContactPicker.framework/MultiContactPicker\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/MultiContactPicker.framework/MultiContactPicker\"\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/MultiContactPicker.framework\" \"${PROJECT_DIR}\"\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFCD4E0209F13CC00477A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE867CF820A09AA7000A357C /* MultiContactPickerProtocol.swift in Sources */,
+				CE04559020A0852B0049BA28 /* MultiContactPickerController.swift in Sources */,
+				CE04559520A086490049BA28 /* ContactCellTableViewCell.swift in Sources */,
+				CEFCD500209F148D00477A51 /* MultiContactPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCD4EA209F13CC00477A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE867CF920A09AA7000A357C /* MultiContactPickerProtocol.swift in Sources */,
+				CE04559620A086490049BA28 /* ContactCellTableViewCell.swift in Sources */,
+				CEFCD501209F148D00477A51 /* MultiContactPicker.swift in Sources */,
+				CE04559120A0852B0049BA28 /* MultiContactPickerController.swift in Sources */,
+				CEFCD4F4209F13CC00477A51 /* MultiContactPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFCD4F1209F13CC00477A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFCD4E4209F13CC00477A51 /* MultiContactPicker */;
+			targetProxy = CEFCD4F0209F13CC00477A51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEFCD4F7209F13CC00477A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEFCD4F8209F13CC00477A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEFCD4FA209F13CC00477A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q6EKB3LKQX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MultiContactPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rk.MultiContactPicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFCD4FB209F13CC00477A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q6EKB3LKQX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MultiContactPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rk.MultiContactPicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFCD4FD209F13CC00477A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6EKB3LKQX;
+				INFOPLIST_FILE = MultiContactPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rk.MultiContactPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFCD4FE209F13CC00477A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6EKB3LKQX;
+				INFOPLIST_FILE = MultiContactPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rk.MultiContactPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFCD504209F152400477A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6EKB3LKQX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEFCD505209F152400477A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6EKB3LKQX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFCD4DF209F13CC00477A51 /* Build configuration list for PBXProject "MultiContactPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCD4F7209F13CC00477A51 /* Debug */,
+				CEFCD4F8209F13CC00477A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFCD4F9209F13CC00477A51 /* Build configuration list for PBXNativeTarget "MultiContactPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCD4FA209F13CC00477A51 /* Debug */,
+				CEFCD4FB209F13CC00477A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFCD4FC209F13CC00477A51 /* Build configuration list for PBXNativeTarget "MultiContactPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCD4FD209F13CC00477A51 /* Debug */,
+				CEFCD4FE209F13CC00477A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFCD503209F152400477A51 /* Build configuration list for PBXAggregateTarget "UniversalMultiContactPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCD504209F152400477A51 /* Debug */,
+				CEFCD505209F152400477A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFCD4DC209F13CC00477A51 /* Project object */;
+}

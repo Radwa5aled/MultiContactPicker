@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BEBAS.ttf">
+            <string>Bebas</string>
+        </array>
+        <array key="SourceSansPro-Regular.otf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailButton" indentationWidth="10" reuseIdentifier="ContactCellTableViewCell" rowHeight="67" id="OCR-uH-TgB" customClass="ContactCellTableViewCell" customModule="MultiContactPicker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OCR-uH-TgB" id="VRU-9s-a2q">
+                <rect key="frame" x="0.0" y="0.0" width="272" height="66.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z4K-4b-UcQ">
+                        <rect key="frame" x="16" y="13" width="240" height="53.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZTc-cW-Ig7">
+                                <rect key="frame" x="0.0" y="14.5" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="27I-78-UEH"/>
+                                    <constraint firstAttribute="height" constant="25" id="gYL-aU-pBQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-default-image.png" translatesAutoresizingMaskIntoConstraints="NO" id="uKj-OL-0ck">
+                                <rect key="frame" x="33" y="7" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dJ1-n0-7iz"/>
+                                    <constraint firstAttribute="width" constant="40" id="eoE-5i-KvP"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="za0-zr-fWn">
+                                <rect key="frame" x="81" y="0.0" width="159" height="53.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FirstName LastName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGY-W9-rn1">
+                                        <rect key="frame" x="0.0" y="0.0" width="151" height="19"/>
+                                        <fontDescription key="fontDescription" name="Bebas" family="Bebas" pointSize="16"/>
+                                        <color key="textColor" red="0.25490196079999999" green="0.25098039220000001" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jojo@rmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCJ-gm-DGz">
+                                        <rect key="frame" x="0.0" y="21" width="95.5" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+1 (212) 555 2121" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raG-Qo-TLg">
+                                        <rect key="frame" x="0.0" y="39.5" width="97" height="14"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="12"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Z4K-4b-UcQ" firstAttribute="centerY" secondItem="VRU-9s-a2q" secondAttribute="centerY" id="8rd-P4-Spm"/>
+                    <constraint firstItem="Z4K-4b-UcQ" firstAttribute="leading" secondItem="VRU-9s-a2q" secondAttribute="leadingMargin" constant="8" id="mYP-vU-oWg"/>
+                    <constraint firstAttribute="trailing" secondItem="Z4K-4b-UcQ" secondAttribute="trailing" constant="8" id="wtb-cy-QqD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgSelected" destination="ZTc-cW-Ig7" id="GVl-wJ-fLg"/>
+                <outlet property="imgUser" destination="uKj-OL-0ck" id="yua-Pd-k2W"/>
+                <outlet property="lbl1" destination="KGY-W9-rn1" id="P0X-cw-6z6"/>
+                <outlet property="lbl2" destination="cCJ-gm-DGz" id="9yG-yx-sEn"/>
+                <outlet property="lbl3" destination="raG-Qo-TLg" id="m4g-U3-AoM"/>
+            </connections>
+            <point key="canvasLocation" x="364" y="233.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon-default-image.png" width="85" height="85"/>
+    </resources>
+</document>
