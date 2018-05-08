@@ -1,7 +1,7 @@
 # MultiContactPicker
 
 [![Language: Swift 4](https://img.shields.io/badge/language-swift4-f48041.svg?style=flat-square)](https://developer.apple.com/swift)
-[!Platform(https://img.shields.io/badge/platforms-iOS%211.0+-333333.svg?style=flat-square)]
+![Platform](https://img.shields.io/badge/platforms-iOS%211.0+-333333.svg?style=flat-square)
 
 Multi Contact Picker gives you the ability to access your contacts and return CNContact list
 
