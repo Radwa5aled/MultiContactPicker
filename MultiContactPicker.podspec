@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MultiContactPicker"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "Multi Contact Picker  gives you the ability to access your contacts and return CNContact list"
 
  
