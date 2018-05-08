@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
 
     s.source_files  = "MultiContactPicker", "MultiContactPicker/**/*.{h,m,swift}"
  
-    s.resources = "MultiContactPicker/*.png"
+    s.resources = "MultiContactPicker/*.{storyboard,xib,xcassets,json,imageset,png}"
+
 
    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '>= 3.2, <= 4.0' }
 
