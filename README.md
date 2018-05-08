@@ -31,8 +31,7 @@ import Contacts
 ```swift
 MultiContactPicker.shared.openContacts(controller:self)
 ```
-3.
-Add `Privacy - Contacts Usage Description` to Info.plist
+3. Add `Privacy - Contacts Usage Description` to Info.plist
 
 # Delegates #
 
