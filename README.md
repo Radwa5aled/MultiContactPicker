@@ -34,7 +34,7 @@ MultiContactPicker.shared.openContacts(controller:self)
 
 # Delegates #
 
-MultiContactPicker provides you one delegate for getting the callbacks on the picker
+MultiContactPicker provides you delegate `MultiContactPickerProtocol` for getting the callbacks on the picker
 
 ```swift
 func selectedContacts(cNContact: [CNContact])
