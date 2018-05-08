@@ -25,7 +25,6 @@ MultiContactPicker is available on CocoaPods. Just add the following to your pro
 1. 
 ```swift
 import MultiContactPicker
-import Contacts
 ```
 2.
 ```swift
