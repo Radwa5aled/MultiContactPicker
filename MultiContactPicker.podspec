@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MultiContactPicker"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Multi Contact Picker  gives you the ability to access your contacts and return CNContact list"
 
  
@@ -11,20 +11,20 @@ Pod::Spec.new do |s|
 
    s.homepage     = "http://google.com.eg/"
  
-    s.license      = 'MIT'
+    s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "Radwa Khaled" => "raadwa.khaled@gmail.com" }
     s.social_media_url   = "http://facebook.com/radwa.khaled.526"
 
   
     s.platform     = :ios, "11.0"
 
-     s.source       = { :git => "https://github.com/Radwa5aled/MultiContactPicker.git", :tag => "1.0.0" }
+     s.source       = { :git => "https://github.com/Radwa5aled/MultiContactPicker.git", :tag => s.version }
 
     s.source_files  = "MultiContactPicker", "MultiContactPicker/**/*.{h,m,swift}"
  
     s.resources = "MultiContactPicker/*.png"
 
-   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '>= 3.2, <= 4.0' }
 
  
 
