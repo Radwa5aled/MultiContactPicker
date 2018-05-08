@@ -31,6 +31,9 @@ import Contacts
 ```swift
 MultiContactPicker.shared.openContacts(controller:self)
 ```
+3.
+Add `Privacy - Contacts Usage Description` to Info.plist
+
 # Delegates #
 
 MultiContactPicker provides you one delegate for getting the callbacks on the picker
@@ -40,7 +43,7 @@ func selectedContacts(cNContact: [CNContact])
 ```
 ## License ##
 
-EPContactsPicker is available under the MIT license. See the [LICENSE](https://github.com/ipraba/EPContactsPicker/blob/master/LICENSE) file for more info.
+MultiContactPicker is available under the MIT license.
 
 ## Contributors ##
 
