@@ -91,15 +91,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE04559220A086090049BA28 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				CE04559320A086490049BA28 /* ContactCellTableViewCell.swift */,
-				CE04559420A086490049BA28 /* ContactCellTableViewCell.xib */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		CEFCD4DB209F13CC00477A51 = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +112,8 @@
 		CEFCD4E7209F13CC00477A51 /* MultiContactPicker */ = {
 			isa = PBXGroup;
 			children = (
-				CE04559220A086090049BA28 /* Views */,
+				CE04559320A086490049BA28 /* ContactCellTableViewCell.swift */,
+				CE04559420A086490049BA28 /* ContactCellTableViewCell.xib */,
 				CE867CF420A098E1000A357C /* icon-default-image.png */,
 				CE04559A20A0872A0049BA28 /* icon-checkbox-selected-green.png */,
 				CE04559D20A087390049BA28 /* icon-checkbox-unselected.png */,
